@@ -1,0 +1,2015 @@
+@font-face{
+  font-family: 'PF Centro Slab Pro';
+  src: url('../fonts/PFCentroSlabPro-Regular.eot');
+  src: url('../fonts/PFCentroSlabPro-Regular.eot?iefix') format('eot'),
+  url('../fonts/PFCentroSlabPro-Regular.woff') format('woff'),
+  url('../fonts/PFCentroSlabPro-Regular.ttf') format('truetype'),
+  url('../fonts/PFCentroSlabPro-Regular.svg#webfont') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  color: #000;
+  position: relative;
+}
+
+a, button {
+  transition: all .3s ease;
+}
+
+a {
+  font-family: "PF Centro Slab Pro";
+}
+
+h1 {
+  font-family: "PF Centro Slab Pro";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+h2 {
+  font-family: "PF Centro Slab Pro";
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.header {
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  position: relative;
+}
+
+.header .container {
+  position: relative;
+}
+
+.header__logo {
+  margin-top: 28px;
+}
+
+.header__top {
+  padding: 21px 0;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.header__tel {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  margin-right: 28px;
+} 
+
+.header__btn {
+  border: 1px solid #4D71CA;
+  padding: 7px 20px;
+  display: block;
+  color: #4D71CA;
+  font-size: 16px;
+  line-height: 18px;
+  border-radius: 15px;
+  margin-right: 51px;
+}
+
+.header__btn:hover {
+  color: #fff;
+  background: #4D71CA;
+}
+
+.header__social a {
+  margin-right: 20px;
+}
+
+.header__login, .header__login:hover {
+  margin: 0 64px 0 auto;
+  font-size: 16px;
+  line-height: 18px;
+  color: #443E3E;
+}
+
+.header__burger {
+  background: none;
+  padding: 0;
+  height: 18px;
+}
+
+.header__languages {
+  padding: 28px 0 34px 0;
+  margin-bottom: 0;
+}
+
+.header__languages li a {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header__languages li a:hover {
+  color: #4D71CA;
+}
+
+.header__languages li a.other, .menu .other {
+  color: #999999;
+}
+
+.header__menu {
+  /* position: absolute; */
+  position: relative;
+  left: 0;
+  margin-bottom: -36px;
+  width: 100%;
+  box-shadow: 0px 7px 22px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background: #4D71CA;
+  padding: 27px 48px 0 48px;
+}
+
+.header__menu>li>a {
+  font-family: "PF Centro Slab Pro";
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  display: block;
+  padding-bottom: 27px;
+  white-space: nowrap;
+}
+
+.header__menu>li>a:hover {
+  color: #D2DAED;
+}
+
+.header__menu>li {
+  position: relative;
+}
+
+.header__menu_second {
+  background: #fff;
+  position: absolute;
+  top: 50px;
+  left: -30px;
+  padding: 50px 35px 15px 35px;
+  white-space: nowrap;
+  z-index: -1;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 0px 7px 22px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+
+.header__menu>li:first-child .header__menu_second {
+  left: -48px;  
+}
+
+.header__menu>li:last-child .header__menu_second {
+  right: -48px;
+  left: auto;
+  min-width: 210px;
+}
+
+.header__menu>li:hover .header__menu_second {
+  display: block;
+}
+
+.header__menu_second li a {
+  color: #4D71CA;
+  font-family: "Open Sans";
+  display: block;
+  margin-bottom: 20px;
+}
+
+.main {
+  position: relative;
+  background-color: #FAFAFA;
+  padding-bottom: 94px;
+}
+
+.main__img {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+.main__offer {
+  font-family: "PF Centro Slab Pro";
+  margin-top: 411px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 53px;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.main-btn, .main-btn:hover {
+  background: linear-gradient(90deg, #F7CD46 0%, #EB564C 25%, #C23397 50%, #7132A7 75.52%, #4D6EC7 100%);
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+}
+
+.main__main-btn {
+  width: 406px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.main__text {
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantages {
+  padding-top: 120px;
+}
+
+.advantages__item_img {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 63px 0 32px 0;
+}
+
+.title-underline {
+  margin-top: 9px;
+}
+
+.language-friend {
+  padding-top: 134px;
+}
+
+.language-friend__offer {
+  font-family: "PF Centro Slab Pro";
+  color: #4D71CA;
+  font-size: 30px;
+  margin: 50px 0 35px 0;
+}
+
+.langiage-friend__main-btn {
+  margin: 0 auto;
+  width: 370px;
+  height: 60px;
+}
+
+.language-friend__desc {
+  font-family: Open Sans;
+  color: #999999;
+  margin: 35px 0 130px 0;
+}
+
+.language-friend__item {
+  height: 290px;
+  width: 100%;
+  padding-top: 50px;
+  border-radius: 15px;
+}
+
+.language-friend__item_title {
+  font-family: "PF Centro Slab Pro";
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.language-friend__item_text {
+  font-size: 16px;
+  line-height: 23px;
+  margin: 15px 0 30px 0;
+}
+
+.second-btn {
+  display: block;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  font-weight: 500; 
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.language-friend__item_second-btn {
+  width: 460px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.result {
+  padding-top: 130px;
+}
+
+.result__item {
+  margin-top: 50px;
+}
+
+.result__item_img {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.result__item p {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 23px;
+  color: #999999;
+}
+
+.knowledge {
+  padding-top: 130px;
+}
+
+.knowledge__block {
+  margin-top: 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.13);
+  border-radius: 15px;
+  padding: 27px;
+}
+
+.knowledge__tabs {
+  min-width: 310px;
+}
+
+.knowledge__tabs div {
+  color: #443E3E;
+  font-weight: 500;
+  font-size: 20px;
+  height: 72px;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.knowledge__tabs div.active {
+  background: linear-gradient(90deg, #F7CD46 0%, #EB564C 25%, #C23397 50%, #7132A7 75.52%, #4D6EC7 100%);
+  color: #fff;
+}
+
+.knowledge__contents div {
+  color: #443E3E;
+  display: none;
+}
+
+.knowledge__contents div.active {
+  display: block;
+}
+
+.teachers, .reviews {
+  padding-top: 130px;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+
+.teachers__slider {
+  margin-top: 41px;
+  position: relative;
+  z-index: 0;
+}
+
+.teachers__slider .owl-stage-outer, .owl-carousel.reviews__slider .owl-stage-outer {
+  overflow: visible !important;
+}
+
+.teachers__slider .owl-item, .reviews__slider .owl-item {
+  opacity: 0.4;
+}
+
+.teachers__slider .owl-item.active, .reviews__slider .owl-item.active {
+  opacity: 1;
+}
+
+.teachers__item {
+  height: 600px;
+  position: relative;
+  padding: 40px 15px 0 15px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.13);
+  border-radius: 15px;
+  margin: 10px 0;
+}
+
+.teachers__languages img {
+  margin: 0 5px;
+}
+
+.teachers__item h2 {
+  color: #15499F;
+  margin: 8px 0;
+}
+
+.teachers__item p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #999999;
+}
+
+.teachers__photo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.teachers__slider .owl-nav {
+  text-align: right;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: none;
+}
+
+.teachers__all {
+  font-size: 20px;
+  color: #443E3E;
+  margin-top: -43px;
+  position: relative;
+  z-index: 1;
+  width: 250px;
+
+}
+
+.teachers__all img {
+  max-height: 20px;
+  width: auto;
+}
+
+.popular-courses {
+  padding: 135px 0 70px 0;
+}
+
+.popular-courses p {
+  margin-top: 51px;
+  color: #443E3E;
+}
+
+.courses {
+  padding: 40px 0 80px 0;
+  background: #4D71CA;
+}
+
+.courses__tabs {
+  overflow: auto;
+  -ms-overflow-style: none;  /* IE 10+ */
+  scrollbar-width: none;
+}
+
+.courses__tabs::-webkit-scrollbar { 
+  width: 0px;
+  background: transparent; 
+}
+
+.courses__tabs li {
+  font-weight: 700;
+  color: #FFFFFF;
+  height: 54px;
+  padding: 0 33px;
+  display: block;
+  text-align: center;
+  line-height: 54px;
+  cursor: pointer;
+}
+
+.courses__tabs li.active {
+  background: #fff;
+  border-radius: 15px;
+  color: #4D71CA;
+}
+
+.courses__contents {
+  background: #fff;
+  border-radius: 15px;
+  margin-top: 34px;
+}
+
+.courses__contents>div, .courses__item>div {
+  display: none;
+}
+
+.courses__contents>div.active, .courses__item>div.active {
+  display: block;
+}
+
+.courses__nav {
+  padding: 36px 90px 0px 90px;
+  border-bottom: 1px solid #4D71CA;
+}
+
+.courses__nav li {
+  color: rgba(77, 113, 202, 0.6);
+  text-align: center;
+  margin-right: 40px;
+  padding-bottom: 17px;
+  margin-bottom: -2px;
+  cursor: pointer;
+}
+
+.courses__nav li.active {
+  color: #4D71CA;
+  font-weight: 700;
+  border-bottom: 4px solid #4D71CA;
+}
+
+.courses__item {
+  padding: 50px 90px;
+}
+
+.courses__item_title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-family: "PF Centro Slab Pro";
+}
+
+.courses__item_links {
+  margin: 50px 165px 0 0;
+}
+
+.courses__item_links a {
+  display: inline-block;
+  color: #4D71CA;
+  border-bottom: 1px solid #4D71CA;
+  margin-bottom: 21px;
+}
+
+.request {
+  padding-top: 130px;
+}
+
+.request__form {
+  margin-top: 51px;
+}
+
+.request__input {
+  width: 350px;
+  margin: 0 20px 25px 0;
+}
+
+.request__input p {
+  color: #443E3E;
+  line-height: 21px;
+  margin-bottom: 9px;
+}
+
+.request__input p span {
+  color: #B72025;
+}
+
+.request__input input, .request__input select {
+  background: #FFFFFF;
+  border: 1px solid #999999;
+  border-radius: 15px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #443E3E;
+  width: 100%;
+  height: 48px;
+}
+
+select {
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url(../img/select-bg.svg) no-repeat center right !important;
+}
+
+.request__container .flex-wrap {
+  width: 770px;
+}
+
+.request__textarea {
+  width: 530px;
+  margin-right: 0;
+}
+
+.request__textarea textarea {
+  width: 100%;
+  height: calc(100% - 25px);
+  background: #FFFFFF;
+  border: 1px solid #999999;
+  border-radius: 15px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #443E3E;
+}
+
+.request__form_desc {
+  font-size: 14px;
+  line-height: 16px;
+  color: #CCCCCC;
+  margin: -9px 0 40px 0;
+}
+
+.request__main-btn {
+  width: 350px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.request__form_btn a {
+  color: #4D71CA;
+}
+
+.reviews__slider .owl-stage {
+  margin-top: 51px;
+}
+
+.reviews__item {
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.13);
+  padding: 25px 24px 25px 30px;
+  border-radius: 15px;
+  /* margin: 10px; */
+}
+
+.reviews__author {
+  font-family: "PF Centro Slab Pro";
+  color: #999999;
+}
+
+.reviews__title {
+  font-family: "PF Centro Slab Pro";
+  font-size: 22px;
+  line-height: 27px;
+  color: #4D71CA;
+  margin: 4px 0 18px 0;
+}
+
+.reviews__text {
+  color: #443E3E;
+  margin-bottom: 10px;
+  height: 165px;
+}
+
+.reviews__date, .reviews__name {
+  font-size: 16px;
+  line-height: 18px;
+  color: #443E3E;
+}
+
+.reviews__slider .owl-nav {
+  text-align: right;
+}
+
+.news {
+  padding: 150px 0 130px 0;
+}
+
+.news__item {
+  margin-top: 51px;
+  height: 470px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.13);
+  border-radius: 15px;
+  position: relative;
+}
+
+.news__item_img {
+  width: 100%;
+  height: 240px;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 25px;
+}
+
+.news__item_title {
+  font-family: "PF Centro Slab Pro";
+  font-size: 22px;
+  line-height: 27px;
+  color: #4D71CA;
+  margin: 0 25px;
+}
+
+.news__item_action {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+
+.news__item_btn, .news__item_btn:hover {
+  width: 195px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #fff;
+  /* border: 1px solid #999999; */
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  border-radius: 5px;
+  background: linear-gradient(90deg, #F7CD46 0%, #EB564C 25%, #C23397 50%, #7132A7 75.52%, #4D6EC7 100%);
+}
+
+.news__item_date {
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.footer {
+  box-shadow: 0px -7px 30px rgba(0, 0, 0, 0.15);
+  padding: 60px 0 28px 0;
+}
+
+.footer__title {
+  font-weight: 500;
+  color: #443E3E;
+  margin-bottom: 30px;
+}
+
+.footer__link {
+  font-size: 16px;
+  line-height: 18px;
+  color: #443E3E;
+  margin-bottom: 17px;
+  display: block;
+}
+
+.footer__news {
+  margin-bottom: 21px;
+}
+
+.footer__news_title {
+  font-size: 16px;
+  line-height: 18px;
+  color: #443E3E;
+  color: #E65425;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.footer__text, .footer__text a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #443E3E;
+}
+
+.footer__tel {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #E65425;
+  display: block;
+}
+
+.footer__mail {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #E66525;
+  margin: 10px 0 25px 0;
+}
+
+.footer__social a {
+  display: block;
+  margin-right: 20px;
+  margin-top: 38px;
+}
+
+.credits {
+  border-top: 1px solid rgba(230, 84, 37, 0.2);
+  margin-top: 61px;
+  padding-top: 15px;
+}
+
+.credits p {
+  font-size: 14px;
+  line-height: 16px;  
+  color: #999999;
+}
+
+.credits a {
+  font-size: 14px;
+  line-height: 16px;
+  color: #E65425;
+  margin-left: 156px;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: -570px;
+  background: #fff;
+  height: 100%;
+  width: 570px;
+  z-index: 9;
+  padding: 100px 50px 50px 50px;
+  box-shadow: 0px -7px 30px rgba(0, 0, 0, 0.15);
+  transition: all .5s ease;
+}
+
+.menu.active {
+  right: 0;
+}
+
+.menu li a, .menu__tablet_title {
+  font-weight: 700;
+  color: #443E3E;
+  margin-bottom: 20px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.menu li a:hover {
+  color: #4D71CA;
+}
+
+.menu__close {
+  position: absolute;
+  top: 30px;
+  right: calc((100vw - 1300px) / 2);
+  cursor: pointer;
+  font-size: 27px;
+  color: #E65425;
+}
+
+.menu__tablet_title {
+  margin-top: 20px;
+  color: #E65425;
+}
+
+.menu__tablet {
+  display: none;
+}
+
+/* Страница языка */
+
+.navigation {
+  margin-top: 51px;
+}
+
+.navigation li a {
+  font-size: 14px;
+  color: #999999;
+}
+
+.navigation li {
+  font-size: 14px;
+  color: #4D71CA;
+  font-family: "Open Sans";
+}
+
+.navigation li a:after {
+  content: " / ";
+  margin-right: 4px;
+}
+
+.language-main {
+  padding-bottom: 63px;
+}
+
+.language-main__bg {
+  width: 100%;
+  margin: 15px 0 40px 0;
+}
+
+.blue-btn {
+  font-family: "Open Sans";
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid #4D71CA; */
+  border-radius: 15px;
+  transition: all .3s ease;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #F7CD46 0%, #EB564C 25%, #C23397 50%, #7132A7 75.52%, #4D6EC7 100%);
+}
+
+.blue-btn:hover {
+  color: #fff;
+  /* background: #4D71CA; */
+}
+
+.language-main .main-btn, .language-main .blue-btn {
+  height: 70px;
+}
+
+.language-courses .courses__contents {
+  margin-top: 0;
+}
+
+.language-courses__nav {
+  padding: 36px 61px 0 61px;
+}
+
+.language-courses__item {
+  padding: 50px 61px;
+}
+
+.language-courses__item .courses__item_links {
+  margin: 50px 130px 0 0;
+}
+
+.language-courses__tabs li {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.levels {
+  padding-top: 130px;
+}
+
+.levels__item {
+  margin-top: 40px;
+}
+
+.levels__number {
+  font-family: "PF Centro Slab Pro";
+  background: linear-gradient(90deg, #F7CD46 35.83%, #EB564C 43.04%, #C23397 50.24%, #7132A7 57.59%, #4D6EC7 64.64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.levels__item h2 {
+  margin: 15px 0;
+}
+
+.levels__text {
+  font-size: 16px;
+  color: #999999;
+}
+
+.most-popular-courses, .perspective, .language-info, .timetable {
+  padding-top: 130px;
+}
+
+.most-popular-courses__container {
+  border: 1px solid #4D71CA;
+  border-radius: 15px;
+  margin-top: 53px;
+}
+
+.most-popular-courses__item {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  transition: all .3s ease;
+  padding: 40px 28px;
+  width: 100%;
+}
+
+.most-popular-courses__item:hover {
+  border: 2px solid #4D71CA;
+}
+
+.most-popular-courses__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin: 0 -15px 5px -15px;
+}
+
+.most-popular-courses__second-title {
+  font-size: 16px;
+  line-height: 18px;
+  color: #999999;
+  margin-bottom: 30px;
+}
+
+.most-popular-courses__text p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #999999;
+  margin: 0 0 0 10px;
+}
+
+.most-popular-courses__text {
+  margin-bottom: 10px;
+}
+
+.most-popular-courses__active-text p {
+  color: #443E3E;
+} 
+
+.most-popular-courses__active-text {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(77, 113, 202, 0.3);
+  margin-bottom: 20px;
+}
+
+.most-popular-courses__price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4D71CA;
+  margin: 0;
+}
+
+.most-popular-courses__cycle {
+  font-size: 20px;
+  line-height: 23px;
+  color: #999999;
+  margin: 0;
+}
+
+.most-popular-courses__main-btn {
+  width: 100%;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.perspective__numb {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  background: #fff;
+  color: #E65425;
+  font-size: 24px;
+  margin: 0 auto 20px auto;
+}
+
+.perspective__item {
+  margin-top: 60px;
+  position: relative;
+}
+
+.perspective .col-lg-3:not(:last-child) .perspective__item::after {
+  content: url(../img/perspective-arrow.png);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -10px;
+  margin: auto;
+}
+
+.perspective__numb::before {
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  z-index: -1;
+  background: linear-gradient(90deg, #FF512F 0%, #F09819 100%);
+}
+
+.perspective__text {
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  font-family: "PF Centro Slab Pro";
+}
+
+.timetable td {
+  padding: 21px 0;
+}
+
+.timetable__title td {
+  font-size: 16px;
+  padding-bottom: 29px;
+}
+
+.timetable__name {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.timetable__desc {
+  color: #999999;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.timetable__price {
+  font-size: 20px;
+  line-height: 23px;
+  color: #E65425;
+  margin-bottom: 0;
+}
+
+.timetable__old-price {
+  font-size: 16px;
+  line-height: 18px;
+  color: #999999;
+}
+
+.timetable__blue-btn {
+  /* border: 1px solid #4D71CA; */
+  border-radius: 15px;
+  height: 46px;
+  font-weight: 400;
+}
+
+.timetable__price.disabled {
+  color: #999999;
+}
+
+.timetable__blue-btn.disabled {
+  border: none;
+  color: #999999;
+  pointer-events: none;
+  cursor: default;
+  background: none;
+  text-transform: none;
+}
+
+.language-request {
+  padding-bottom: 130px;
+}
+
+/* Страница курса */
+
+.course-main {
+  padding-bottom: 0;
+}
+
+.course-main .main__offer {
+  margin: 130px 0 65px 0;
+}
+
+.course-desc {
+  background: #F9FAFD;
+  padding: 65px 0;
+}
+
+.course-desc__card {
+  background: none;
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid #E65425;
+}
+
+.course-desc__card:last-child {
+  border-bottom: 1px solid #E65425;
+}
+
+.course-desc__card .card-header {
+  padding: 0 !important;
+  background: none;
+  border: none;
+}
+
+.course-desc__card .card-header button {
+  padding: 18px 20px 18px 0;
+  background: none;
+  font-size: 20px;
+  color: #000000;
+  font-family: "PF Centro Slab Pro";
+}
+
+.course-desc__card .card-header button img {
+  transition: all .3s ease;
+}
+
+.course-desc__card .card-header button[aria-expanded="true"] img {
+  transform: rotate(45deg);
+}
+
+.course-desc__card .card-body {
+  padding: 0 0 10px 50px;
+  color: #443E3E;
+}
+
+.course-desc__card .card-body ul li {
+  list-style: disc;
+  margin-bottom: 8px;
+}
+
+.levels__second-title {
+  margin-top: 130px;
+}
+
+.methodology {
+  color: #fff;
+  background: #4D71CA;
+  padding: 50px 0;
+}
+
+.methodology__numb {
+  min-width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.methodology__list-item {
+  margin-bottom: 14px;
+}
+
+.grammar-vocabulary {
+  padding: 65px 0;
+  background: #F9FAFD;
+  margin-top: 65px;
+}
+
+.grammar-vocabulary table tr {
+  border-bottom: 1px solid #E65425;
+}
+
+.grammar-vocabulary table td {
+  padding: 20px 0;
+  font-family: "PF Centro Slab Pro";
+}
+
+.grammar-vocabulary table tr td:first-child {
+  width: 66%;
+}
+
+.grammar-vocabulary__title td {
+  font-weight: 500;
+  font-size: 30px;
+  padding: 0 0 30px 0 !important;
+}
+
+.content {
+  padding-top: 65px;
+}
+
+.content__star {
+  max-width: 24px;
+}
+
+.content__progress {
+  position: relative;
+  width: 160px;
+  height: 18px;
+  background: #E9EBF2;
+  border-radius: 15px;
+  margin: 10px 0 15px 0;
+}
+
+.content__progress_active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 15px;
+} 
+
+.content__progress_active.a2 {
+  width: 40px;
+  background: #F7CD46;
+}
+
+.content__progress_active.b1 {
+  width: 80px;
+  background: #EB564C;
+}
+
+.content__progress_active.b2 {
+  width: 120px;
+  background: #7132A7;
+}
+
+.content__progress_active.c1 {
+  width: 120px;
+  background: #4D6EC7;
+}
+
+.content__level {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+
+}
+
+.content__level.a2, .content__count.a2, .textbooks__level.a2 {
+  color: #F7CD46;
+}
+
+.content__level.b1, .content__count.b1, .textbooks__level.b1 {
+  color: #EB564C;
+}
+
+.content__level.b2, .content__count.b2, .textbooks__level.b2 {
+  color: #7132A7;
+}
+
+.content__level.c1, .content__count.c1, .textbooks__level.c1{
+  color: #4D6EC7;
+}
+
+.content__item_block {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  border: 1px solid #fff;
+  transition: all .3s ease;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.content__item_block.a2 {
+  height: 250px;
+}
+
+.content__item_block.a2:hover {
+  border: 1px solid #F7CD46;
+}
+
+.content__item_block.b1 {
+  height: 320px;
+}
+
+.content__item_block.b1:hover {
+  border: 1px solid #EB564C;
+}
+
+.content__item_block.b2 {
+  height: 390px;
+}
+
+.content__item_block.b2:hover {
+  border: 1px solid #7132A7;
+}
+
+.content__item_block.c1 {
+  height: 460px;
+}
+
+.content__item_block.c1:hover {
+  border: 1px solid #4D6EC7;
+}
+
+.content__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.content__time {
+  font-size: 20px;
+  line-height: 23px;
+  color: #999999;
+  margin-bottom: 74px;
+}
+
+.content__count {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.content__circles div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 7px;
+}
+
+.content__circles div.a2 {
+  background: #F7CD46;
+}
+
+.content__circles div.b1 {
+  background: #EB564C;
+}
+
+.content__circles div.b2 {
+  background: #7132A7;
+}
+
+.content__circles div.c1 {
+  background: #4D6EC7;
+}
+
+.skills {
+  padding: 50px 60px;
+  border: 1px solid #F7CD46;
+  box-shadow: 0px 4px 20px rgba(247, 205, 70, 0.2);
+  border-radius: 15px;
+}
+
+.skills__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  font-family: "PF Centro Slab Pro";
+}
+
+.skills .d-flex div {
+  width: 300px;
+}
+
+.skills .d-flex div .skills__title, .skills .d-flex div ul {
+  padding-left: 20px;
+}
+
+.skills .d-flex div ul li {
+  color: #999999;
+  margin-bottom: 10px;
+  list-style: disc;
+}
+
+.best-teachers {
+  padding-top: 130px;
+}
+
+.best-teachers__name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #999999;
+  margin-bottom: 20px;
+}
+
+.best-teacher__post {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  font-family: "PF Centro Slab Pro";
+}
+
+.best-teacher__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #443E3E;
+  margin-bottom: 10px;
+  font-family: "PF Centro Slab Pro";
+}
+
+.textbooks {
+  padding: 130px 0;
+}
+
+.textbooks__level {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  text-transform: uppercase;
+  margin-right: 17px;
+}
+
+.best-teachers__slider .owl-stage-outer {
+  overflow: visible !important;
+}
+
+.best-teachers__slider .owl-nav {
+  text-align: right;
+}
+
+.best-teachers__slider .owl-item {
+  opacity: 0.4;
+}
+
+.best-teachers__slider .owl-item.center {
+  opacity: 1;
+}
+
+/* Страница преподавателей */
+
+.best-teachers.teacher-page {
+  padding-top: 100px;
+}
+
+.teachers.teacher-page {
+  padding-top: 0;
+}
+
+/* Конаткты */
+
+.contacts__block {
+  /* background: #FFFFFF;
+  box-shadow: 0px 7px 22px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px; 
+  padding: 70px 80px;*/
+  margin: 111px 0 270px 0;
+}
+
+.contacts__address {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.contacts__metro {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 70px;
+}
+
+.contacts__time {
+  color: #443E3E;
+  margin-bottom: 60px;
+}
+
+.contacts__main-btn {
+  height: 70px;
+  margin-bottom: 25px;
+}
+
+.contacts__credits {
+ font-size: 17px;
+}
+
+.best-teachers-content {
+  display: none;
+}
+
+.best-teachers-content.active {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header__menu>li>a {
+    font-size: 18px;
+  }
+
+  .header__login p {
+    display: none;
+  }
+
+  .header__languages li a {
+    font-size: 14px;
+  }
+
+  .main__img {
+    max-width: 100%;
+  }
+
+  .language-friend__item_second-btn {
+    width: 420px;
+  }
+
+  .courses__nav {
+    padding: 36px 36px 0 36px;
+    white-space: nowrap;
+  }
+
+  .courses__item {
+    padding: 36px;
+  }
+
+  .courses__item_links a {
+    border: none;
+    text-decoration: underline;
+  }
+
+  .request__textarea {
+    width: 1060px;
+  }
+
+  .menu__close {
+    right: calc((100vw - 960px) / 2);
+  }
+
+  .courses__tabs:after {
+    content: url(../img/scroll.png);
+    position: absolute;
+    top: 60px;;
+    right: 15px;
+  }
+
+  .language-courses__tabs {
+    display: flex;
+    
+  }
+
+  .language-courses__tabs li {
+    padding: 0 33px;
+  }
+
+  .navigation {
+    display: none !important;
+  }
+
+  .language-main {
+    padding-top: 70px;
+  }
+
+}
+
+
+@media (max-width: 991px) {
+  .header {
+    padding: 15px 0;
+  }
+
+  .header .row {
+    align-items: center;
+  }
+
+  .header__top {
+    padding: 0;
+    border: 0;
+  }
+  .header__social, .header__menu, .header__languages {
+    display: none !important;
+  }
+
+  .header__login, .header__login:hover {
+    margin-right: 20px;
+  }
+
+  .header__menu {
+    display: none !important;
+  }
+
+  .header__logo {
+    margin-top: 0;
+  }
+
+  .menu__close {
+    right: calc((100vw - 720px) / 2);
+  }
+
+  .menu {
+    padding-top: 43px;
+  }
+
+  .main__img {
+    position: relative;
+    display: block;
+  }
+
+  .main__offer {
+    margin-top: 0;
+  }
+
+  .menu__tablet {
+    display: block;
+  }
+
+  .language-friend__item {
+    margin-bottom: 20px;
+  }
+
+  .knowledge__tabs {
+    min-width: 200px;
+  }
+
+  .courses__nav {
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none;
+    border: 0;
+  }
+
+  .courses__nav::-webkit-scrollbar { 
+    width: 0px;
+    background: transparent; 
+  }
+
+  .courses__item {
+    padding-top: 0;
+  }
+
+  .request__input {
+    width: 270px;
+  }
+
+  .request__textarea {
+    width: 930px;
+  }
+
+  .request__form_btn {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .request__form_btn a {
+    margin-top: 15px;
+  }
+
+  .news__item_btn  {
+    width: 150px;
+  }
+
+  .menu {
+    width: 100%;
+    right: -100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .perspective .col-lg-3:not(:last-child) .perspective__item::after {
+    left: 0;
+    right: 10px;
+    top: auto;
+    bottom: -43px;
+    text-align: center;
+    transform: rotate(90deg);
+  }
+
+  .timetable__title {
+    display: none !important;
+  }
+
+  .timetable table tr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .timetable table td {
+    position: relative;
+  }
+
+  .timetable__name::before, .timetable .price-month::before, .timetable .price-course::before  {
+    position: absolute;
+    top: -7px;
+    font-size: 16px;
+    color: #443E3E;
+  }
+
+  .timetable__name::before {
+    content: "Периодичность занятий для всех уровней";
+  }
+
+  .timetable .price-month::before {
+    content: "Стоимость в месяц";
+  }
+
+  .timetable .price-course::before {
+    content: "Стоимость за курс";
+  }
+
+  .timetable table tbody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .timetable table tr {
+    width: 47%;
+  }
+
+  .timetable__blue-btn {
+    margin: -15px 0 35px 0;
+  }
+
+  .best-teachers__name {
+    margin-top: 30px;
+  }
+
+  .textbooks .best-teacher__title {
+    padding-top: 0 !important;
+  }
+
+  .best-teachers.teacher-page .photo {
+    display: none;
+  }
+
+  .best-teachers.teacher-page {
+    padding-top: 0;
+  }
+
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+
+  .header__btn {
+    display: none;
+  }
+
+  .header__tel {
+    font-size: 18px;
+  }
+
+  .main {
+    padding-top: 0 !important;
+  }
+
+  .main__offer {
+    margin-top: 61px;
+    font-size: 36px;
+    line-height: 34px;
+  }
+
+  .main-btn, .second-btn {
+    font-size: 18px;
+  }
+
+  .main__main-btn {
+    width: 100%;
+    height: 60px;
+  }
+
+  .main__text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .language-friend__offer {
+    line-height: 27px;
+  }
+
+  .langiage-friend__main-btn {
+    width: 100%;
+    height: 50px;
+  }
+
+  .language-friend__desc {
+    margin-bottom: 30px;
+  }
+
+  .language-friend__item_second-btn {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .menu__close {
+    right: 30px;
+  }
+
+  section {
+    padding-top: 90px !important;
+  }
+
+  .knowledge__block {
+    flex-direction: column;
+  }
+
+  .knowledge__tabs {
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .knowledge__tabs div {
+    height: 50px;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .knowledge__tabs div:nth-child(2) {
+    margin: 0 10px !important;
+  }
+
+  .knowledge__contents {
+    margin-left: 0 !important;
+  }
+
+  .courses__item_links, .language-courses__item .courses__item_links {
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+
+  .request__container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .request__input {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .request__main-btn {
+    height: 50px;
+  }
+
+  .request__container .flex-wrap {
+    width: 100%;
+  }
+
+  .reviews__text {
+    height: auto;
+  }
+
+  .reviews__date, .reviews__name {
+    font-size: 11px;
+  }
+
+  .credits {
+    flex-direction: column;
+  }
+
+  .credits a {
+    margin-left: 0;
+  }
+
+  .language-main .main-btn, .language-main .blue-btn {
+    height: 60px;
+    margin-bottom: 15px;
+  }
+
+  .timetable table tr {
+    width: 100%;
+  }
+
+  .content__item_block {
+    height: 250px !important;
+  }
+
+  .skills>.d-flex {
+    flex-direction: column;
+  }
+
+  .skills>.d-flex>div {
+    margin-right: 0 !important;
+  }
+
+  .skills .d-flex div {
+    width: 100%;
+  }
+
+  .skills>.d-flex>div:nth-child(2) {
+    margin-top: 20px;
+  }
+  
+  .skills {
+    padding: 30px;
+  }
+
+  .teachers.teacher-page, .best-teachers.teacher-page, .contacts {
+    padding-top: 0 !important;
+  }
+
+  .contacts__block {
+    padding: 30px;
+    margin-top: 50px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  
+}
